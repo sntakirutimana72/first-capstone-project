@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# microverse-html-css-template
+# first-capstone-project
 
 > A Microverse GitHub template for projects built with _`html`_, _`css`_, and _`javascript`_ only.
 
