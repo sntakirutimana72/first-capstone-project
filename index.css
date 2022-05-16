@@ -1,7 +1,7 @@
 /* Here you apply all kinds of styling to your app UIs */
 
 * {
-  font-family: '';
+  font-family: 'Lato', sans-serif;
   font-weight: normal;
 }
 
@@ -11,6 +11,7 @@ html {
 
 body {
   margin: 0;
+  background: #d3d3d3;
 }
 
 ul {
@@ -23,16 +24,32 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
 .darkish {
   color: #272a31
 }
 
-.redish {
+.reddish {
   color: #ec5242
 }
 
 .greyish {
   color: #d3d3d3
+}
+
+.f-loto {
+  font-family: 'Lato', sans-serif;
+}
+
+.f-coco {
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 .hidden {
@@ -42,7 +59,7 @@ a {
 /* MAIN */
 
 main {
-  padding: 20px;
+  padding: 20px 15px;
 }
 
 /* HEADER */
@@ -69,4 +86,41 @@ header {
 
 .nav-hamburger-bar:not(:nth-child(3)) {
   margin-bottom: 5px;
+}
+
+/* HEADLINE */
+
+#headline {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 0;
+}
+
+.headline-heading {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.headline-heading > span {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.headline-para {
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  background: #d3d3d3;
+  border: 2px solid white;
+}
+
+.headline-timeline {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.headline-timeline > span {
+  font-size: 16px;
 }
