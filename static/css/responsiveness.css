@@ -1,0 +1,94 @@
+@media (min-width: 768px) {
+  /* HEADER */
+
+  header {
+    background: white;
+    box-shadow: 0 3px 3px rgb(192, 189, 189);
+  }
+
+  header > div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .nav-logo {
+    display: inherit;
+  }
+
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    height: 100%;
+  }
+
+  .nav-menu-item a {
+    text-align: center;
+    font-size: 14px;
+    color: #272a31;
+  }
+
+  .nav-hamburger-box {
+    display: none;
+  }
+
+  .nav-logo img {
+    height: 40px;
+  }
+
+  /* FOOTER */
+
+  .about .footer-partners {
+    display: none;
+  }
+
+  .about .footer-reserve {
+    background: none !important;
+  }
+
+  .main-footer {
+    display: inherit;
+  }
+
+  /* HEADLINE */
+
+  #headline {
+    padding-top: 100px !important;
+  }
+  
+  .programs-container {
+    flex-direction: row !important;
+    justify-content: center;
+    gap: 4px !important;
+  }
+
+  .program-card {
+    max-width: 190px;
+    flex-direction: column;
+    padding: 20px 10px !important;
+  }
+
+  .program-card-heading {
+    max-width: none;
+    text-align: center;
+  }
+
+  .program-card-para {
+    text-align: center;
+  }
+
+  .program-join-btn,
+  .speakers-more-btn {
+    display: none;
+  }
+
+  .program-all-btn {
+    display: inherit;
+    text-decoration: underline;
+  }
+
+  .speakers-container {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+

@@ -9,39 +9,45 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
         <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="static/css/core-all.css">
+        <link rel="stylesheet" href="static/css/responsiveness.css">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <main>
             <header>
-                <div class="nav-logo hidden">
-                    <a href="#"><img src="" alt="Logo"></a>
+                <div class="d-flex justify-content-between">
+                    <div class="nav-logo hidden">
+                        <a href="index.html"><img src="static/images/logo.png" alt="Logo"></a>
+                    </div>
+                    <nav class="nav-bar">
+                        <ul class="nav-menu hidden">
+                            <li class="nav-menu-item"><a href="static/pages/about.html">About</a></li>
+                            <li class="nav-menu-item"><a href="#program">Program</a></li>
+                            <li class="nav-menu-item"><a href="#">Join</a></li>
+                            <li class="nav-menu-item"><a href="#">Sponsor</a></li>
+                            <li class="nav-menu-item"><a href="#">News</a></li>
+                            <li class="nav-menu-item"><a href="#">CC Campaign</a></li>
+                        </ul>
+                        <button type="button" class="nav-hamburger-box">
+                            <span class="nav-hamburger-bar"></span>
+                            <span class="nav-hamburger-bar"></span>
+                            <span class="nav-hamburger-bar"></span>
+                        </button>
+                    </nav>
                 </div>
-                <nav class="nav-bar">
-                    <ul class="nav-menu hidden">
-                        <li class="nav-menu-item"></li>
-                        <li class="nav-menu-item"></li>
-                        <li class="nav-menu-item"></li>
-                        <li class="nav-menu-item"></li>
-                        <li class="nav-menu-item"></li>
-                        <li class="nav-menu-item"></li>
-                    </ul>
-                    <button type="button" class="nav-hamburger-box">
-                        <span class="nav-hamburger-bar"></span>
-                        <span class="nav-hamburger-bar"></span>
-                        <span class="nav-hamburger-bar"></span>
-                    </button>
-                </nav>
             </header>
 
-            <section id="headline">
-                <h1 class="headline-heading reddish">
+            <section class="d-flex flex-column" id="headline">
+                <h1 class="h-primary reddish">
                     <span>"Hello! Sharing world"</span><br>
-                    CREATIVE COMMONS
-                    GLOBAL SUMMIT
-                    2015
+                    CREATIVE COMMONS GLOBAL SUMMIT 2015
                 </h1>
-                <p class="headline-para blackish">
+                <p class="headline-p p-primary blackish">
                     A joyful celebration believing in the value of openness and
                     sharing, creating a positive change with people from over 80
                     countries is taking place in October, in Korea.
@@ -52,76 +58,79 @@
                 </p>
             </section>
 
-            <section id="programs">
-                <h2 class="prog-heading sec-heading">
+            <section class="d-flex flex-column align-items-center text-white" id="programs">
+                <h2 class="h-secondary">
                     Main Program<br>
                     <span></span>
                 </h2>
                 <div>
-                    <div class="programs-container">
-                        <div class="program-card">
-                            <img src="static/images/lecture.png" alt="" class="program-card-img">
-                            <h3 class="program-card-heading">Lecture</h3>
-                            <p class="program-card-para">
+                    <div class="d-flex flex-column programs-container">
+                        <ul class="program-card">
+                            <li><img src="static/images/lecture.png" alt="" class="program-card-img">
+                            </li>
+                            <li class="program-card-heading">Lecture</li>
+                            <li class="program-card-para">
                                 Listen to the speakers from various countries about the messeges of sharing and opening.
-                            </p>
-                        </div>
-                        <div class="program-card">
-                            <img src="static/images/lecture.png" alt="" class="program-card-img">
-                            <h3 class="program-card-heading">CC Exhibition</h3>
-                            <p class="program-card-para">
+                            </li>
+                        </ul>
+                        <ul class="program-card">
+                            <li><img src="static/images/lecture.png" alt="" class="program-card-img">
+                            </li>
+                            <li class="program-card-heading">CC Exhibition</li>
+                            <li class="program-card-para">
                                 Appreciate various creations applying CC licence of artists, organized from Art Center Nabi.
-                            </p>
-                        </div>
-                        <div class="program-card">
-                            <img src="static/images/lecture.png" alt="" class="program-card-img">
-                            <h3 class="program-card-heading">Forum</h3>
-                            <p class="program-card-para">
+                            </li>
+                        </ul>
+                        <ul class="program-card">
+                            <li><img src="static/images/lecture.png" alt="" class="program-card-img">
+                            </li>
+                            <li class="program-card-heading">Forum</li>
+                            <li class="program-card-para">
                                 Have the time to share your thoughts and opinions with experts for each topic.
-                            </p>
-                        </div>
-                        <div class="program-card">
-                            <img src="static/images/lecture.png" alt="" class="program-card-img">
-                            <h3 class="program-card-heading">Workshop</h3>
-                            <p class="program-card-para">
+                            </li>
+                        </ul>
+                        <ul class="program-card">
+                            <li><img src="static/images/lecture.png" alt="" class="program-card-img">
+                            </li>
+                            <li class="program-card-heading">Workshop</li>
+                            <li class="program-card-para">
                                 Try creating your own work using open source licence rather than just watching
-                            </p>
-                        </div>
-                        <div class="program-card">
-                            <img src="static/images/lecture.png" alt="" class="program-card-img">
-                            <h3 class="program-card-heading">CC Ignite</h3>
-                            <p class="program-card-para">
+                            </li>
+                        </ul>
+                        <ul class="program-card">
+                            <li><img src="static/images/lecture.png" alt="" class="program-card-img">
+                            </li>
+                            <li class="program-card-heading">CC Ignite</li>
+                            <li class="program-card-para">
                                 Get opportunities to network with CC affiliates around the world, also after the summit.
-                            </p>
-                        </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <a href="#" class="program-join-btn">Join CC Global Summit 2015</a>
+                <a href="#" class="program-join-btn mt-5 p-4 px-5">Join CC Global Summit 2015</a>
+                <a href="#" class="program-all-btn mt-5 p-4 px-5 greyish hidden">SEE THE WHOLE PROGRAM</a>
             </section>
 
-            <section id="speakers">
-                <h2 class="speak-heading sec-heading">
+            <section class="d-flex flex-column align-items-center bg-white" id="speakers">
+                <h2 class="h-secondary">
                     Featured Speakers<br>
                     <span></span>
                 </h2>
                 <div class="speakers-container">
                     <div class="speakers-card">
                         <img src="static/images/professor.png" alt="Speaker" class="speakers-img"></img>
-                        <div>
-                            <div class="speakers-card-body">
-                                <h3 class="speakers-card-heading">
-                                    Yochai Benkler<br>
-                                    <span>
-                                        Berkman Professor of Entrepreneurial Legal Studies
-                                        at Harvard Law School
-                                    </span>
-                                    <span></span>
-                                </h3>
-                                <p class="speakers-card-para">
-                                    Benkler studies commons-based peer production, and published
-                                    his seminal book The Wealth of Networks in 2006.
-                                </p>
-                            </div>
+                        <div class="speakers-card-body">
+                            <h3 class="h-territiary">
+                                Yochai Benkler<br>
+                                <span>
+                                    <i>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</i>
+                                </span><br>
+                                <span></span>
+                            </h3>
+                            <p class="p-forth">
+                                Benkler studies commons-based peer production, and published
+                                his seminal book The Wealth of Networks in 2006.
+                            </p>
                         </div>
                     </div>
 
@@ -129,14 +138,12 @@
                         <img src="static/images/professor.png" alt="Speaker" class="speakers-img"></img>
                         <div>
                             <div class="speakers-card-body">
-                                <h3 class="speakers-card-heading">
+                                <h3 class="h-territiary">
                                     SohYeong Noh<br>
-                                    <span>
-                                        Director of Art Centre Nabi and a board member of CC Korea
-                                    </span>
+                                    <span><i>Director of Art Centre Nabi and a board member of CC Korea</i></span><br>
                                     <span></span>
                                 </h3>
-                                <p class="speakers-card-para">
+                                <p class="p-forth">
                                     As the main venue for new media art production in Korea, Nabi
                                     promotes cross-disciplinary collaboration and understanding
                                     among science technology, humanities, and the arts.
@@ -145,10 +152,30 @@
                         </div>
                     </div>
                 </div>
-                <div class="speakers-more-btn">
+                <div class="speakers-more-btn flex-grow-1">
                     MORE
                 </div>
             </section>
+
+            <footer class="main-footer footer hidden">
+                <div class="footer-partners">
+                    <h2 class="h-secondary">
+                        Partners<br>
+                        <span></span>
+                    </h2>
+                    <ul class="d-flex flex-wrap justify-content-center">
+                        <li class="footer-partner-item">mozilla</li>
+                        <li class="footer-partner-item">Google</li>
+                        <li class="footer-partner-item">NAVER</li>
+                        <li class="footer-partner-item">daumkakao</li>
+                        <li class="footer-partner-item">airbnb</li>
+                    </ul>
+                </div>
+                <div class="footer-reserve d-flex align-items-center justify-content-center bg-white">
+                    <img src="static/images/reserve.png" alt="">
+                    <p class="p-teritiary">2015 Creative Commons Korea. Some Rights Reserved.</p>
+                </div>
+            </footer>
         </main>
     </body>
 </html>

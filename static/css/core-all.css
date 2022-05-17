@@ -14,10 +14,6 @@ body {
   background: #d3d3d3;
 }
 
-main {
-  padding: 20px 0 0;
-}
-
 ul {
   list-style: none;
   margin: 0;
@@ -55,8 +51,8 @@ h3 {
 }
 
 .h-primary {
-  line-height: 50px;
-  font-size: 40px;
+  line-height: 60px;
+  font-size: 48px;
   font-weight: bolder;
 }
 
@@ -73,32 +69,62 @@ h3 {
   padding-bottom: 30px;
 }
 
-.h-secondary > span {
+.h-secondary > span,
+.h-territiary > span:nth-child(4) {
   padding: 0.5px 20px;
   font-size: 0.5px;
+}
+
+.h-secondary > span {
   background: #ec5242;
+}
+
+.h-territiary {
+  font-size: 17px;
+  line-height: 22px;
+  font-weight: 600;
+}
+
+.h-territiary > span:nth-child(4) {
+  background: #d3d3d3;
+  padding: 0.5px 15px;
+}
+
+.h-territiary > span:nth-child(2) i {
+  color: #ec5242;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 600;
 }
 
 .p-primary {
   padding: 15px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 24px;
 }
 
 .p-teritiary {
   font-size: 13px;
-  font-weight: 400;
   line-height: 20px;
   text-align: center;
+  color: #272a31;
+}
+
+.p-forth {
+  color: #272a31;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
 }
 
 /* HEADER */
 
-header {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 35px;
+
+header > div {
+  margin: 0 auto;
+  padding: 20px 35px;
+  max-width: 800px;
 }
 
 .nav-hamburger-box {
@@ -117,4 +143,41 @@ header {
 
 .nav-hamburger-bar:not(:nth-child(3)) {
   margin-bottom: 5px;
+}
+
+/* FOOTER */
+
+.footer {
+  padding-top: 30px;
+  color: #d3d3d3;
+  background: #272a31;
+}
+
+.footer h2 {
+  padding-bottom: 0;
+}
+
+.footer p {
+  text-align: left;
+}
+
+.footer-partners {
+  padding: 10px 30px;
+  padding-bottom: 30px;
+}
+
+.footer ul {
+  gap: 20px;
+}
+
+.footer-partner-item {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 15px;
+}
+
+.footer-reserve {
+  gap: 30px;
+  padding: 30px 50px;
 }
