@@ -1,0 +1,112 @@
+.about-primary {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 50px 30px;
+}
+
+.about-heading {
+  text-align: center;
+}
+
+.about-para {
+  text-align: center;
+  border-radius: 4px;
+  background: #fff;
+  border: 1.5px solid #b7b9bbd0;
+}
+
+.about-bottom {
+  padding: 0 40px;
+  text-align: center;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.about-bottom u {
+  font-weight: bold;
+}
+
+/* ABOUT LOGO */
+
+.about-logo,
+.about-teritiary {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background: #fff;
+  border-bottom: 2px solid #d3d3d370;
+}
+
+.about-h-secondary {
+  padding: 0 106px;
+}
+
+.about-h-secondary > span {
+  padding: 0.5px 10px;
+}
+
+.about-logo-img {
+  margin: 50px 0 10px;
+  text-align: center;
+  border-radius: 4px;
+  border: 2px solid #b7b9bb4b
+}
+
+.about-teritiary {
+  padding: 30px 50px;
+}
+
+.about-teritiary .about-h-secondary {
+  padding: 0 30px;
+}
+
+.about-past-img:nth-child(3) {
+  margin: 30px 0 20px;
+}
+
+.about-past-img:last-child {
+  margin-bottom: 10px;
+}
+
+.about-footer {
+  padding-top: 30px;
+  color: #d3d3d3;
+  background: #272a31;
+}
+
+.about-footer h2 {
+  padding-bottom: 0;
+}
+
+.about-footer p {
+  text-align: left;
+}
+
+.about-partners {
+  padding: 10px 30px;
+  padding-bottom: 30px;
+}
+
+.about-partners ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.about-partner-item {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 15px;
+}
+
+.about-reserve {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background: white;
+  padding: 30px 50px;
+}
