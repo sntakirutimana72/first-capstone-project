@@ -1,14 +1,21 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# first-capstone-project
+# First Capstone Project
 
-> A Microverse GitHub template for projects built with _`html`_, _`css`_, and _`javascript`_ only.
+This project is built around the **CVF Computer Vision Conference 2022** upcoming event. 
+The **CVF Computer Vision Conference 2022** event will feature people from all over world, 
+coming together to talk and share diverse ideas about AI and its appliances in tech industries 
+and other concerned industries including education, health, and many more.
+
+The project incorporates the event planning and schedules in a webapp and provides users with the means to 
+keep track on everything going on with the event timelines, featured speakers, topics, sponsors, and so on.
 
 
 ## Built With
 
 - html
 - css
+- Bootstrap (v5)
 - JavaScript
 
 
@@ -58,7 +65,7 @@ Open _Terminal/Shell_ inside your _VSCode_ and run
 
 👤 **Steve**
 
-- GitHub: [@github-profile](https://github.com/sntakirutimana72)
+- GitHub: [@sntakirutimana72](../../../)
 
 ## 🤝 Contributing
 

@@ -5,7 +5,7 @@ function toggleBodyOverflow() {
 function toggleMobileMenu() {
   toggleBodyOverflow();
   alterHamburgerButton(this);
-  $class($select('.nav-mob'), 'nav-wrap');
+  $class($select('.nav-wrap'), 'nav-slide');
 }
 
 function alterHamburgerButton($this) {

@@ -63,3 +63,10 @@
 .about-teritiary > div {
   gap: 20px;
 }
+
+iframe {
+  max-width: 560px;
+  max-height: 315px;
+  border-radius: 4px;
+  box-shadow: 0 0 8px black;
+}

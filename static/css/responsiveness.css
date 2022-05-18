@@ -5,6 +5,10 @@
 }
 
 @media (min-width: 768px) {
+  body {
+    overflow-y: auto !important;
+  }
+
   /* HEADER */
 
   header {
@@ -29,7 +33,7 @@
   .nav-menu {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 25px;
     height: 100%;
   }
 
@@ -39,7 +43,8 @@
     color: #272a31;
   }
 
-  .hamburger-box {
+  .hamburger-box,
+  .nav-wrap.nav-slide {
     display: none !important;
   }
 
@@ -79,6 +84,8 @@
     padding-top: 100px !important;
   }
 
+  /* PROGRAMS */
+
   .programs-container {
     flex-direction: row !important;
     justify-content: center;
@@ -109,6 +116,8 @@
     display: inherit;
     text-decoration: underline;
   }
+
+  /* SPEAKERS */
 
   .speakers-container {
     grid-template-columns: 1fr 1fr !important;
