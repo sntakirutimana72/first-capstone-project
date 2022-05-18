@@ -1,3 +1,9 @@
+@media (min-width: 660px) {
+  .about-logo {
+    align-items: center;
+  }
+}
+
 @media (min-width: 768px) {
   /* HEADER */
 
@@ -15,6 +21,11 @@
     display: inherit;
   }
 
+  .nav-logo img {
+    max-width: 215px;
+    height: 50px !important;
+  }
+
   .nav-menu {
     display: flex;
     align-items: center;
@@ -28,8 +39,8 @@
     color: #272a31;
   }
 
-  .nav-hamburger-box {
-    display: none;
+  .hamburger-box {
+    display: none !important;
   }
 
   .nav-logo img {
@@ -46,6 +57,18 @@
     background: none !important;
   }
 
+  .footer-reserve p {
+    color: #d3d3d3;
+  }
+
+  .footer-reserve img:first-child {
+    display: none;
+  }
+
+  .footer-reserve img:nth-child(2) {
+    display: inherit;
+  }
+
   .main-footer {
     display: inherit;
   }
@@ -55,7 +78,7 @@
   #headline {
     padding-top: 100px !important;
   }
-  
+
   .programs-container {
     flex-direction: row !important;
     justify-content: center;
@@ -89,6 +112,10 @@
 
   .speakers-container {
     grid-template-columns: 1fr 1fr !important;
+  }
+
+  .speakers-card.toggle {
+    display: flex !important;
   }
 }
 

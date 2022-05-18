@@ -9,10 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
         <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
-        <link rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-            crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/core-all.css">
         <link rel="stylesheet" href="../css/responsiveness.css">
         <link rel="stylesheet" href="../css/about.css">
@@ -22,7 +19,7 @@
             <header>
                 <div class="d-flex justify-content-between">
                     <div class="nav-logo hidden">
-                        <a href="../../index.html"><img src="../images/logo.png" alt="Logo"></a>
+                        <a href="../../index.html"><img alt="Logo" src="../images/logo.png"></a>
                     </div>
                     <nav class="nav-bar">
                         <ul class="nav-menu hidden">
@@ -31,13 +28,25 @@
                             <li class="nav-menu-item"><a href="#">Join</a></li>
                             <li class="nav-menu-item"><a href="#">Sponsor</a></li>
                             <li class="nav-menu-item"><a href="#">News</a></li>
-                            <li class="nav-menu-item"><a href="#">CC Campaign</a></li>
+                            <li class="nav-menu-item"><a href="#">CVF Campaign</a></li>
                         </ul>
-                        <button type="button" class="nav-hamburger-box">
-                            <span class="nav-hamburger-bar"></span>
-                            <span class="nav-hamburger-bar"></span>
-                            <span class="nav-hamburger-bar"></span>
+                        <button type="button" class="hamburger-box d-flex flex-column justify-content-between">
+                            <span class="hamburger-bar bar-1"></span>
+                            <span class="hamburger-bar bar-2"></span>
+                            <span class="hamburger-bar bar-3"></span>
                         </button>
+                    </nav>
+                </div>
+                <div class="nav-mob hidden">
+                    <nav>
+                        <ul>
+                            <li><a href="./about.html">About</a></li>
+                            <li><a href="#program">Program</a></li>
+                            <li><a href="#">Join</a></li>
+                            <li><a href="#">Sponsor</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">CVF Campaign</a></li>
+                        </ul>
                     </nav>
                 </div>
             </header>
@@ -45,44 +54,60 @@
             <section class="about-primary d-flex flex-column align-items-center">
                 <h1 class="about-heading h-primary reddish">
                     <span>"Hello! Sharing world"</span><br>
-                    CREATIVE COMMONS GLOBAL SUMMIT 2015
+                    COMPUTER VISION & PATTERN RECOGNITION CONFERENCE 2022
                 </h1>
                 <p class="about-para p-primary blackish bg-white">
-                    The Global Summit brings together the community of experts, academics, and
-                    activists who compromise the Creative Commons affiliate network in a different
-                    country every two. This year, we hope to expand our invitation list including
-                    organizations and individuals
+                    CVPR 2022 will be a hybrid conference, with both in-person and virtual attendance options.
+                    Conference content hosted on the virtual platform will be available exclusively to CVPR
+                    registered attendees. The conference proceedings will be publicly available via the CVF website,
+                    with the final version posted to IEEE Xplore after the conference
                 </p>
                 <p class="about-bottom blackish">
-                    Please contanct us per Email for any further questions about CC Global Summit 2015!<br>
-                    <u>ccsummit2015@cckorea.org</u>
+                    Please contanct us per Email for any further questions about CVF Computer Vision Conference 2022!<br>
+                    <u>cvprconference2022@new-rleans.org</u>
                 </p>
             </section>
 
-            <section class="about-logo d-flex flex-column align-items-center bg-white">
+            <section class="d-flex flex-column bg-white about-logo">
                 <h2 class="about-h-secondary h-secondary">
-                    Creative Commons Global Summit 2015 Logo<br>
+                    Computer Vision & Pattern Recognition Conference 2022 Logo<br>
                     <span></span>
                 </h2>
                 <p class="p-teritiary">
-                    The logo of CC Global Summit 2015 was decided through the logo competition from 8.June to 7.July.
+                    The logo of CVPR Conference 2022 was decided through the logo competition from 8.April to 7.May.
                 </p>
-                <div class="about-logo-img">
-                    <img src="../images/logo.png" alt="CC Global Summit 2015 Logo">
-                </div>
+                <img src="../images/logo.png" alt="CVPR Conference 2022 Logo" class="about-logo-img">
             </section>
 
-            <section class="about-teritiary d-flex flex-column align-items-center bg-white">
+            <section class="about-teritiary d-flex flex-column bg-white">
                 <h2 class="about-h-secondary h-secondary">
-                    See the past CC Global Summits<br>
+                    Watch talks about AI<br>
                     <span></span>
                 </h2>
                 <p class="p-teritiary">
-                    Take a look at the last CC Global Summits which took place in Buenos Aires and in Warsaw.
+                    Learn from the top world's engineers and academics researchers in AI field.
                 </p>
-                <div class="d-flex flex-wrap justify-content-center g-3 mt-4 mb-2">
-                    <img src="../images/past-2013.png" alt="" class="about-past-img">
-                    <img src="../images/past-2011.png" alt="" class="about-past-img">
+                <div>
+                    <div class="d-flex flex-wrap justify-content-center g-3 mt-4 mb-2">
+                        <div class="card m-2" style="width: 23rem;">
+                            <video poster="../images/poster-1.png" class="rounded-top" controls>
+                                <source src="https://youtu.be/-8Kn_2MBMOA" type="text/html">
+                                <p>Your browser doesn’t support HTML5 video.</p>
+                            </video>
+                            <div class="card-body">
+                              <h6 class="card-title">DYI AI with Cognitive Services</h6>
+                            </div>
+                        </div>
+                        <div class="card m-2" style="width: 23rem;">
+                            <video poster="../images/poster-2.png" class="rounded-top" controls autoplay>
+                                <source src="https://youtu.be/k0uPwMO-4c4" type="text/html">
+                                <p>Your browser doesn’t support HTML5 video.</p>
+                            </video>
+                            <div class="card-body">
+                              <h6 class="card-title">Home Automation with Azure Percept</h6>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -93,18 +118,33 @@
                         <span></span>
                     </h2>
                     <ul class="d-flex flex-wrap justify-content-center">
-                        <li class="footer-partner-item">mozilla</li>
+                        <li class="footer-partner-item">amazon | Science</li>
+                        <li class="footer-partner-item">ANDURIL</li>
+                        <li class="footer-partner-item">Apple</li>
+                        <li class="footer-partner-item">Argo</li>
+                        <li class="footer-partner-item">ByteDance</li>
+                        <li class="footer-partner-item">cruise</li>
+                        <li class="footer-partner-item">datagen</li>
                         <li class="footer-partner-item">Google</li>
-                        <li class="footer-partner-item">NAVER</li>
-                        <li class="footer-partner-item">daumkakao</li>
-                        <li class="footer-partner-item">airbnb</li>
+                        <li class="footer-partner-item">iMerit</li>
+                        <li class="footer-partner-item">inspur</li>
+                        <li class="footer-partner-item">Intel ai</li>
+                        <li class="footer-partner-item">Microsoft</li>
                     </ul>
                 </div>
-                <div class="footer-reserve d-flex align-items-center justify-content-center bg-white">
+
+                <div class="footer-reserve d-flex justify-content-center align-items-center bg-white">
                     <img src="../images/reserve.png" alt="">
-                    <p class="p-teritiary">2015 Creative Commons Korea. Some Rights Reserved.</p>
+                    <img src="../images/reserve-0.png" alt="" class="hidden">
+                    <p class="p-teritiary">
+                        2022 Computer Vision and Pattern Recognition. Some Rights Reserved.
+                    </p>
                 </div>
             </footer>
         </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../js/utils.js"></script>
+        <script src="../js/events.js"></script>
     </body>
 </html>

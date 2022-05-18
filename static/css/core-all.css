@@ -11,7 +11,10 @@ html {
 
 body {
   margin: 0;
-  background: #d3d3d3;
+}
+
+main {
+  background: #d3d3d3e1;
 }
 
 ul {
@@ -34,6 +37,10 @@ h3 {
   margin: 0;
 }
 
+button:focus {
+  outline: none;
+}
+
 .darkish {
   color: #272a31
 }
@@ -48,6 +55,10 @@ h3 {
 
 .hidden {
   display: none;
+}
+
+.no-overflow {
+  overflow: hidden;
 }
 
 .h-primary {
@@ -127,22 +138,50 @@ header > div {
   max-width: 800px;
 }
 
-.nav-hamburger-box {
+.hamburger-box {
   width: 35px;
-  height: 35px;
+  height: 29px;
   background: none;
   border: none;
   padding: 0;
 }
 
-.nav-hamburger-bar {
-  height: 6px;
-  display: block;
+.hamburger-bar {
+  width: 100%;
+  height: 5px;
+  border-radius: 1px;
   background: #272a31;
 }
 
-.nav-hamburger-bar:not(:nth-child(3)) {
+.bar-1,
+.bar-2 {
   margin-bottom: 5px;
+}
+
+.bar-1 {
+  transform-origin: 0% 0%;
+  transition: transform 0.25s ease-in-out;
+}
+
+.bar-2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.bar-3 {
+  transform-origin: 0% 100%;
+  transition: transform 0.25s ease-in-out;
+}
+
+.bar-1.bar-trigger {
+  transform: rotate(45deg);
+}
+
+.bar-2.bar-trigger {
+  transform: scaleY(0);
+}
+
+.bar-3.bar-trigger {
+  transform: rotate(-45deg);
 }
 
 /* FOOTER */
@@ -179,5 +218,34 @@ header > div {
 
 .footer-reserve {
   gap: 30px;
-  padding: 30px 50px;
+  padding: 30px 20px;
+}
+
+/* MOBILE MENU */
+
+.nav-wrap {
+  display: block;
+  z-index: 99;
+  position: fixed;
+  top: 60px;
+  height: calc(100vh - 60px);
+  width: 100vw;
+  background: #d3d3d3;
+}
+
+.nav-wrap ul {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 15px 0;
+  width: 100%;
+}
+
+.nav-wrap a {
+  display: block;
+  padding: 10px 15px;
+  color: #272a31;
+  font-weight: 600;
+  font-size: 32px;
+  border-radius: 8px;
 }
