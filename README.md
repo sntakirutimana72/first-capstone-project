@@ -64,6 +64,8 @@ Open _Terminal/Shell_ inside your _VSCode_ and run
 
 ### Deployment
 
+Please visit [first-capstone-project](https://sntakirutimana72.github.io/first-capstone-project/)
+
 
 ## Authors
 
