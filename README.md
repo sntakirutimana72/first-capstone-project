@@ -99,4 +99,4 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Fellow Micronauts
-- _**Cindy Shin in Behance**_ ~ The original desinger of the template. 
+- _**Cindy Shin in Behance**_ ~ The original designer of the template. 
