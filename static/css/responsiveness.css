@@ -40,9 +40,9 @@
 
   .nav-menu-item a {
     text-align: center;
-    font-size: 14px;
+    font-size: 14px !important;
     color: #272a31;
-    padding: 10px;
+    padding: 6px 10px;
   }
 
   .hamburger-box,

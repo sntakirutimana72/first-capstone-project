@@ -133,6 +133,22 @@ button:focus {
   line-height: 20px;
 }
 
+/* Define button */
+
+.custom-btn {
+  border-radius: 4px;
+  transition: box-shadow 0.5s;
+  -webkit-transition: box-shadow 0.5s;
+}
+
+.custom-btn:hover,
+.custom-btn:focus {
+  color: #d3d3d3;
+  padding: 12px;
+  box-shadow: 0 1px 12px black;
+  background: linear-gradient(to right, orangered, purple);
+}
+
 /* HEADER */
 
 header > div {

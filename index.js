@@ -15,7 +15,7 @@ function populateSpeakers() {
 
     let more = $create('button');
     $html(more, 'MORE <i class="bi bi-chevron-down"></i>');
-    more.className = 'speakers-more-btn';
+    more.classList.add('speakers-more-btn', 'custom-btn');
 
     section.append(heading, speakersContainer, more);
 
