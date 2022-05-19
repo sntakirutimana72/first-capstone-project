@@ -57,6 +57,10 @@ Open _Terminal/Shell_ inside your _VSCode_ and run
   ```
     npm run lint:style
   ```
+- For _eslint_ tests, run
+  ```
+    npm run lint:es
+  ```
 
 ### Deployment
 
@@ -80,3 +84,4 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Fellow Micronauts
+- **Cindy Shin** ~ Project template designer 
