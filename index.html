@@ -4,10 +4,171 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Your Webapp Title</title>
+        <title>CVF Computer Vision Conference 2022</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="static/css/core-all.css">
+        <link rel="stylesheet" href="static/css/responsiveness.css">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <main id="main"></main>
+        <main>
+            <header>
+                <div class="d-flex justify-content-between align-items-center">
+                    <nav class="nav-bar">
+                        <ul class="nav-menu hidden">
+                            <li class="nav-menu-item">
+                                <a href="static/pages/about.html" class="custom-btn">About</a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#programs" class="custom-btn">Program</a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#join-us" class="custom-btn">Join</a></li>
+                            <li class="nav-menu-item"><a href="#sponsor" class="custom-btn">Sponsor</a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="custom-btn">News</a>
+                            </li>
+                            <li class="nav-menu-item campain"><a href="#">CVF Campaign</a></li>
+                        </ul>
+                        <button type="button" class="hamburger-box d-flex flex-column justify-content-between">
+                            <span class="hamburger-bar bar-1"></span>
+                            <span class="hamburger-bar bar-2"></span>
+                            <span class="hamburger-bar bar-3"></span>
+                        </button>
+                    </nav>
+                    <div class="nav-logo">
+                        <a href="index.html"><img alt="Logo" src="static/images/logo.png"></a>
+                    </div>
+                </div>
+                <div class="nav-wrap">
+                    <nav>
+                        <ul>
+                            <li><a href="static/pages/about.html" class="custom-btn">About</a></li>
+                            <li><a href="#programs" class="custom-btn">Program</a></li>
+                            <li><a href="#join-us" class="custom-btn">Join</a></li>
+                            <li><a href="#sponsor" class="custom-btn">Sponsor</a></li>
+                            <li><a href="#" class="custom-btn">News</a></li>
+                            <li><a href="#" class="custom-btn">CVF Campaign</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <article class="d-flex flex-column" id="headline">
+                <h1 class="h-primary reddish">
+                    <span>“The future of AI Technology”</span><br>
+                    COMPUTER VISION & PATTERN RECOGNITION CONFERENCE 2022
+                </h1>
+                <p class="headline-p p-primary blackish">
+                    A premier annual computer vision event comprising the main conference and several
+                    co-located workshops and short courses. With its high quality and low cost,
+                    it provides an exceptional value for students, academics and industry researchers.
+                </p>
+                <p class="headline-timeline blackish">
+                    2022.06.19(SUN) ~ 24(FRI)<br>
+                    <span>@New Orleans Ernest N. Morial Convention Center</span>
+                </p>
+            </article>
+
+            <section class="d-flex flex-column align-items-center text-white" id="programs">
+                <h2 class="h-secondary">
+                    Main Program<br>
+                    <span></span>
+                </h2>
+                <div>
+                    <div class="d-flex flex-column programs-container">
+                        <ul class="program-card">
+                            <li><img src="static/images/lecture.png" alt="" class="program-card-img">
+                            </li>
+                            <li class="program-card-heading">Lecture</li>
+                            <li class="program-card-para">
+                                Listen to the speakers from various countries about the evolution and applications of AI.
+                            </li>
+                        </ul>
+                        <ul class="program-card">
+                            <li><img src="static/images/exhibition.png" alt="" class="program-card-img">
+                            </li>
+                            <li class="program-card-heading">CC Exhibition</li>
+                            <li class="program-card-para">
+                                Appreciate various creations applying CVF licence of engineers organized by Microsoft.
+                            </li>
+                        </ul>
+                        <ul class="program-card">
+                            <li><img src="static/images/forum.png" alt="" class="program-card-img">
+                            </li>
+                            <li class="program-card-heading">Forum</li>
+                            <li class="program-card-para">
+                                Have the time to share your thoughts and opinions with experts for each topic.
+                            </li>
+                        </ul>
+                        <ul class="program-card">
+                            <li><img src="static/images/workshop.png" alt="" class="program-card-img">
+                            </li>
+                            <li class="program-card-heading">Workshop</li>
+                            <li class="program-card-para">
+                                Try creating your own work using open source licence rather than just watching
+                            </li>
+                        </ul>
+                        <ul class="program-card">
+                            <li><img src="static/images/ignite.png" alt="" class="program-card-img">
+                            </li>
+                            <li class="program-card-heading">CC Ignite</li>
+                            <li class="program-card-para">
+                                Get opportunities to network with CVF affiliates around the world, also after the conference.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="#" class="program-join-btn custom-btn mt-5 p-4 px-5" id="join-us">
+                    Join CVPR Conference 2022
+                </a>
+                <a href="#" class="program-all-btn custom-btn mt-5 p-4 px-5 greyish hidden">
+                    SEE THE WHOLE PROGRAM
+                </a>
+            </section>
+
+            <footer class="main-footer footer hidden" id="sponsor">
+                <div class="footer-partners">
+                    <h2 class="h-secondary">
+                        Partners<br>
+                        <span></span>
+                    </h2>
+                    <ul class="d-flex flex-wrap justify-content-center">
+                        <li class="footer-partner-item">amazon | Science</li>
+                        <li class="footer-partner-item">ANDURIL</li>
+                        <li class="footer-partner-item">Apple</li>
+                        <li class="footer-partner-item">Argo</li>
+                        <li class="footer-partner-item">ByteDance</li>
+                        <li class="footer-partner-item">cruise</li>
+                        <li class="footer-partner-item">datagen</li>
+                        <li class="footer-partner-item">Google</li>
+                        <li class="footer-partner-item">iMerit</li>
+                        <li class="footer-partner-item">inspur</li>
+                        <li class="footer-partner-item">Intel ai</li>
+                        <li class="footer-partner-item">Microsoft</li>
+                    </ul>
+                </div>
+
+                <div class="footer-reserve d-flex justify-content-center align-items-center bg-white">
+                    <img src="static/images/reserve.png" alt="">
+                    <img src="static/images/reserve-0.png" alt="" class="hidden">
+                    <p class="p-third">
+                        2022 Computer Vision and Pattern Recognition. Some Rights Reserved.
+                    </p>
+                </div>
+            </footer>
+        </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="static/js/static.js"></script>
+        <script src="static/js/utils.js"></script>
+        <script src="static/js/events.js"></script>
+        <script src="index.js"></script>
     </body>
 </html>

@@ -1,9 +1,132 @@
-/* Here you apply all kinds of styling to your app UIs */
-
-html {
-  scroll-behavior: smooth;
+body {
+  background-image: url(static/images/cover.jpg);
+  background-repeat: no-repeat;
 }
 
-body {
-  margin: 0;
+/* HEADLINE */
+
+#headline {
+  max-width: 800px;
+  margin: 0 auto;
+  gap: 20px;
+  padding: 30px 15px;
+  padding-bottom: 100px;
+}
+
+.headline-p {
+  background: #d3d3d3;
+  border: 2px solid white;
+}
+
+.headline-p,
+#headline .h-primary {
+  max-width: 610px;
+}
+
+.headline-timeline {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.headline-timeline > span {
+  font-size: 16px;
+}
+
+/* MAIN PROGRAM */
+
+#programs {
+  padding: 40px 15px;
+  background: #272a31;
+}
+
+.programs-container {
+  gap: 10px;
+}
+
+.program-card {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  gap: 20px;
+  border-radius: 2px;
+  background: #64636317;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.16);
+}
+
+.program-card-heading {
+  font-size: 16px;
+  color: #ec5242;
+  font-weight: 600;
+  min-width: 90px;
+}
+
+.program-card-para {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.program-card-img {
+  width: 50px;
+  height: 50px;
+}
+
+.program-join-btn {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  background: #ec5242;
+}
+
+/* FEATURED SPEAKERS */
+
+#speakers {
+  padding: 30px 20px;
+  padding-bottom: 60px;
+}
+
+.speakers-container {
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+.speakers-card {
+  display: flex;
+  gap: 20px;
+}
+
+.speakers-card.toggle {
+  display: none;
+}
+
+.speakers-card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.speakers-img {
+  position: relative;
+  min-width: 120px;
+  background-image: url(static/images/speaker-cover.png);
+  background-repeat: no-repeat;
+  background-size: 100% 60%;
+}
+
+.speakers-img img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.speakers-more-btn {
+  margin-top: 40px;
+  background: #fff;
+  border: 1px solid #72737765;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
 }

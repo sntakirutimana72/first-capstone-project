@@ -1,21 +1,41 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# first-capstone-project
+# First Capstone Project
 
-> A Microverse GitHub template for projects built with _`html`_, _`css`_, and _`javascript`_ only.
+This project is built around the **CVF Computer Vision Conference 2022** upcoming event. 
+The **CVF Computer Vision Conference 2022** event will feature people from all over world, 
+coming together to talk and share diverse ideas about AI and its appliances in tech industries 
+and other concerned industries including education, health, and many more.
+
+The project incorporates the event planning and schedules in a webapp and provides users with the means to 
+keep track on everything going on with the event timelines, featured speakers, topics, sponsors, and so on.
+
+> The project design is based on the _**Cindy Shin in Behance**_ original design idea.
 
 
 ## Built With
 
 - html
 - css
+- Bootstrap (v5)
 - JavaScript
 
 
-## Live Demo (if available)
+## Live Demo
+
+In order to know how the project app functions, please watch this
+[loom video](https://www.loom.com/share/d6c73017728c483488f6a985fd6eaff5)
 
 
-## Screenshots (if available)
+## Screenshots
+
+### Main Page
+
+![](./static/images/main-page.png)
+
+### About Page
+
+![](./static/images/about-page.png)
 
 
 ## Getting Started
@@ -50,15 +70,21 @@ Open _Terminal/Shell_ inside your _VSCode_ and run
   ```
     npm run lint:style
   ```
+- For _eslint_ tests, run
+  ```
+    npm run lint:es
+  ```
 
 ### Deployment
+
+Please visit [first-capstone-project](https://sntakirutimana72.github.io/first-capstone-project/)
 
 
 ## Authors
 
 👤 **Steve**
 
-- GitHub: [@github-profile](https://github.com/sntakirutimana72)
+- GitHub: [@sntakirutimana72](../../../)
 
 ## 🤝 Contributing
 
@@ -73,3 +99,4 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Fellow Micronauts
+- _**Cindy Shin in Behance**_ ~ The original designer of the template. 
