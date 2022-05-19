@@ -6,6 +6,7 @@
   "scripts": {
     "lint:hint": "npx hint .",
     "lint:es": "npx eslint .",
+    "lint:es-fix": "npx eslint . --fix",
     "lint:style": "npx stylelint \"**/*.{css,scss}\"",
     "lint:style-fix": "npx stylelint \"**/*.{css,scss}\" --fix"
   },

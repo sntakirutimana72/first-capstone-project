@@ -31,7 +31,7 @@
 /* ABOUT LOGO */
 
 .about-logo,
-.about-teritiary {
+.about-third {
   padding: 30px;
   border-bottom: 2px solid #d3d3d370;
 }
@@ -52,19 +52,20 @@
   border: 2px solid #b7b9bb1a;
 }
 
-.about-teritiary {
+.about-third {
   padding: 30px 50px;
 }
 
-.about-teritiary .about-h-secondary {
+.about-third .about-h-secondary {
   padding: 0 30px;
 }
 
-.about-teritiary > div {
+.about-third > div {
   gap: 20px;
 }
 
 iframe {
+  border: none;
   max-width: 560px;
   max-height: 315px;
   border-radius: 4px;

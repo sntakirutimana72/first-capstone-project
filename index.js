@@ -14,60 +14,56 @@ function populateSpeakers() {
     speakersContainer.className = 'speakers-container';
 
     let more = $create('button');
-    $html(more, `MORE <i class="bi bi-chevron-down"></i>`);
+    $html(more, 'MORE <i class="bi bi-chevron-down"></i>');
     more.className = 'speakers-more-btn';
-
 
     section.append(heading, speakersContainer, more);
 
-    programs = null,
-    section = null,
-    heading = null,
+    programs = null;
+    section = null;
+    heading = null;
     more = null;
-4
-    featuredSpeakers.forEach(
-      ( speaker, j ) => {
-        const card = $create('div');
-        card.className = 'speakers-card';
 
-        if (j > 1) {
-          $class(card, 'toggle');
-        }
+    featuredSpeakers.forEach((speaker, j) => {
+      const card = $create('div');
+      card.className = 'speakers-card';
 
-        const cardImageWrap = $create('div'),
-              cardImage = $create('img');
-        cardImageWrap.className = 'speakers-img';
-        cardImage.alt = 'Speaker';
-        cardImage.src = speaker.image;
-        cardImageWrap.appendChild(cardImage);
-
-        const cardBody = $create('div');
-        cardBody.className = 'speakers-card-body';
-
-        const cardHead = $create('h3');
-        cardHead.className = 'h-territiary';
-        $html(cardHead, speaker.description);
-
-        const cardPara = $create('p');
-        cardPara.className = 'p-forth';
-        $text(cardPara, speaker.comment);
-
-        cardBody.append(cardHead, cardPara);
-        card.append(cardImageWrap, cardBody);
-        speakersContainer.appendChild(card);
-
+      if (j > 1) {
+        $class(card, 'toggle');
       }
-    );
+
+      const cardImageWrap = $create('div');
+      const cardImage = $create('img');
+      cardImageWrap.className = 'speakers-img';
+      cardImage.alt = 'Speaker';
+      cardImage.src = speaker.image;
+      cardImageWrap.appendChild(cardImage);
+
+      const cardBody = $create('div');
+      cardBody.className = 'speakers-card-body';
+
+      const cardHead = $create('h3');
+      cardHead.className = 'h-third';
+      $html(cardHead, speaker.description);
+
+      const cardPara = $create('p');
+      cardPara.className = 'p-forth';
+      $text(cardPara, speaker.comment);
+
+      cardBody.append(cardHead, cardPara);
+      card.append(cardImageWrap, cardBody);
+      speakersContainer.appendChild(card);
+    });
   }
 }
 
 function expandColapseSpeakers($this) {
-  Array.from($select('.speakers-container').children).slice(2).forEach(
-    (child) => $class(child, 'toggle')
-  );
+  Array.from($select('.speakers-container').children)
+    .slice(2).forEach((child) => $class(child, 'toggle'));
 
   const $icon = $this.querySelector('i');
-  $class($icon, 'bi-chevron-down'), $class($icon, 'bi-chevron-up');
+  $class($icon, 'bi-chevron-down');
+  $class($icon, 'bi-chevron-up');
 }
 
 window.addEventListener('DOMContentLoaded', () => {

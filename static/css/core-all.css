@@ -14,7 +14,7 @@ body {
 }
 
 main {
-  background: #d3d3d3e1;
+  background: #d3d3d3c7;
 }
 
 ul {
@@ -42,15 +42,15 @@ button:focus {
 }
 
 .darkish {
-  color: #272a31
+  color: #272a31;
 }
 
 .reddish {
-  color: #ec5242
+  color: #ec5242;
 }
 
 .greyish {
-  color: #d3d3d3
+  color: #d3d3d3;
 }
 
 .hidden {
@@ -62,9 +62,13 @@ button:focus {
 }
 
 .h-primary {
-  line-height: 60px;
-  font-size: 48px;
+  line-height: 52px;
+  font-size: 40px;
   font-weight: bolder;
+  background: -webkit-linear-gradient(#f00, #b10058);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .h-primary > span {
@@ -81,26 +85,28 @@ button:focus {
 }
 
 .h-secondary > span,
-.h-territiary > span:nth-child(4) {
+.h-third > span:nth-child(4) {
   padding: 0.5px 20px;
   font-size: 0.5px;
 }
+
+/* stylelint-disable  no-descending-specificity */
 
 .h-secondary > span {
   background: #ec5242;
 }
 
-.h-territiary {
+.h-third {
   font-size: 17px;
   font-weight: 600;
 }
 
-.h-territiary > span:nth-child(4) {
+.h-third > span:nth-child(4) {
   background: #d3d3d3;
   padding: 0.5px 15px;
 }
 
-.h-territiary > span:nth-child(2) i {
+.h-third > span:nth-child(2) i {
   color: #ec5242;
   font-size: 12px;
   font-weight: 600;
@@ -113,7 +119,7 @@ button:focus {
   line-height: 24px;
 }
 
-.p-teritiary {
+.p-third {
   font-size: 13px;
   line-height: 20px;
   text-align: center;
@@ -129,11 +135,14 @@ button:focus {
 
 /* HEADER */
 
-
 header > div {
   margin: 0 auto;
   padding: 20px 35px;
-  max-width: 800px;
+  max-width: 900px;
+}
+
+.nav-logo img {
+  height: 40px;
 }
 
 .hamburger-box {
@@ -208,9 +217,8 @@ header > div {
 }
 
 .footer-partner-item {
-  font-family: 'COCOGOOSE', sans-serif;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
   padding: 15px;
 }
 
@@ -224,9 +232,10 @@ header > div {
 .nav-wrap {
   z-index: 9;
   display: block;
+  visibility: hidden;
   transform: translateX(-150vw);
   position: fixed;
-  top: 60px;
+  top: 70px;
   height: 100vh;
   width: 100vw;
   background: #d3d3d3;
@@ -235,6 +244,7 @@ header > div {
 }
 
 .nav-wrap.nav-slide {
+  visibility: visible;
   transform: translateX(0);
 }
 

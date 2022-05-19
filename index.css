@@ -6,7 +6,7 @@ body {
 /* HEADLINE */
 
 #headline {
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
   gap: 20px;
   padding: 30px 15px;
@@ -87,7 +87,7 @@ body {
 }
 
 .speakers-container {
-  max-width: 950px;
+  max-width: 900px;
   display: grid;
   grid-template-columns: 1fr;
   gap: 40px;
@@ -109,19 +109,16 @@ body {
 
 .speakers-img {
   position: relative;
-  min-width: 130px;
-  min-height: 100px;
+  min-width: 120px;
   background-image: url(static/images/speaker-cover.png);
   background-repeat: no-repeat;
-  background-size: 60% 60%;
+  background-size: 100% 60%;
 }
 
 .speakers-img img {
   position: absolute;
-  width: 100px;
-  height: 100px;
-  right: 0;
   bottom: 0;
+  right: 0;
 }
 
 .speakers-more-btn {

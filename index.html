@@ -18,18 +18,15 @@
     <body>
         <main>
             <header>
-                <div class="d-flex justify-content-between">
-                    <div class="nav-logo hidden">
-                        <a href="index.html"><img alt="Logo" src="static/images/logo.png"></a>
-                    </div>
+                <div class="d-flex justify-content-between align-items-center">
                     <nav class="nav-bar">
                         <ul class="nav-menu hidden">
                             <li class="nav-menu-item"><a href="static/pages/about.html">About</a></li>
-                            <li class="nav-menu-item"><a href="#program">Program</a></li>
-                            <li class="nav-menu-item"><a href="#">Join</a></li>
-                            <li class="nav-menu-item"><a href="#">Sponsor</a></li>
+                            <li class="nav-menu-item"><a href="#programs">Program</a></li>
+                            <li class="nav-menu-item"><a href="#join-us">Join</a></li>
+                            <li class="nav-menu-item"><a href="#sponsor">Sponsor</a></li>
                             <li class="nav-menu-item"><a href="#">News</a></li>
-                            <li class="nav-menu-item"><a href="#">CVF Campaign</a></li>
+                            <li class="nav-menu-item campain"><a href="#">CVF Campaign</a></li>
                         </ul>
                         <button type="button" class="hamburger-box d-flex flex-column justify-content-between">
                             <span class="hamburger-bar bar-1"></span>
@@ -37,14 +34,17 @@
                             <span class="hamburger-bar bar-3"></span>
                         </button>
                     </nav>
+                    <div class="nav-logo">
+                        <a href="index.html"><img alt="Logo" src="static/images/logo.png"></a>
+                    </div>
                 </div>
                 <div class="nav-wrap">
                     <nav>
                         <ul>
                             <li><a href="static/pages/about.html">About</a></li>
-                            <li><a href="#program">Program</a></li>
-                            <li><a href="#">Join</a></li>
-                            <li><a href="#">Sponsor</a></li>
+                            <li><a href="#programs">Program</a></li>
+                            <li><a href="#join-us">Join</a></li>
+                            <li><a href="#sponsor">Sponsor</a></li>
                             <li><a href="#">News</a></li>
                             <li><a href="#">CVF Campaign</a></li>
                         </ul>
@@ -52,9 +52,9 @@
                 </div>
             </header>
 
-            <section class="d-flex flex-column" id="headline">
+            <article class="d-flex flex-column" id="headline">
                 <h1 class="h-primary reddish">
-                    <span>"Hello! Sharing world"</span><br>
+                    <span>“The future of AI Technology”</span><br>
                     COMPUTER VISION & PATTERN RECOGNITION CONFERENCE 2022
                 </h1>
                 <p class="headline-p p-primary blackish">
@@ -64,9 +64,9 @@
                 </p>
                 <p class="headline-timeline blackish">
                     2022.06.19(SUN) ~ 24(FRI)<br>
-                    <span>@New Orleans Ernest N. Morial Convention Center<br>New Orleans, Louisiana</span>
+                    <span>@New Orleans Ernest N. Morial Convention Center</span>
                 </p>
-            </section>
+            </article>
 
             <section class="d-flex flex-column align-items-center text-white" id="programs">
                 <h2 class="h-secondary">
@@ -117,11 +117,11 @@
                         </ul>
                     </div>
                 </div>
-                <a href="#" class="program-join-btn mt-5 p-4 px-5">Join CVPR Conference 2022</a>
+                <a href="#" class="program-join-btn mt-5 p-4 px-5" id="join-us">Join CVPR Conference 2022</a>
                 <a href="#" class="program-all-btn mt-5 p-4 px-5 greyish hidden">SEE THE WHOLE PROGRAM</a>
             </section>
 
-            <footer class="main-footer footer hidden">
+            <footer class="main-footer footer hidden" id="sponsor">
                 <div class="footer-partners">
                     <h2 class="h-secondary">
                         Partners<br>
@@ -146,7 +146,7 @@
                 <div class="footer-reserve d-flex justify-content-center align-items-center bg-white">
                     <img src="static/images/reserve.png" alt="">
                     <img src="static/images/reserve-0.png" alt="" class="hidden">
-                    <p class="p-teritiary">
+                    <p class="p-third">
                         2022 Computer Vision and Pattern Recognition. Some Rights Reserved.
                     </p>
                 </div>

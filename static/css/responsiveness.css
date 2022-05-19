@@ -19,37 +19,35 @@
   header > div {
     padding-top: 10px;
     padding-bottom: 10px;
-  }
-
-  .nav-logo {
-    display: inherit;
+    flex-direction: row-reverse !important;
   }
 
   .nav-logo img {
-    max-width: 215px;
+    max-width: 200px;
     height: 50px !important;
   }
 
   .nav-menu {
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: 10px;
     height: 100%;
+  }
+
+  .nav-menu .campain {
+    border: 2.5px solid #ec5242;
   }
 
   .nav-menu-item a {
     text-align: center;
     font-size: 14px;
     color: #272a31;
+    padding: 10px;
   }
 
   .hamburger-box,
   .nav-wrap.nav-slide {
     display: none !important;
-  }
-
-  .nav-logo img {
-    height: 40px;
   }
 
   /* FOOTER */
@@ -62,7 +60,7 @@
     background: none !important;
   }
 
-  .footer-reserve p {
+  .about .footer-reserve p {
     color: #d3d3d3;
   }
 
@@ -127,4 +125,3 @@
     display: flex !important;
   }
 }
-

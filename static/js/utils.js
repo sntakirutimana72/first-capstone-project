@@ -50,13 +50,14 @@ function $create(tagName) {
 /**
  *
  * @param {HMTLElement} element ~ an html element to/from which the content is added or retrieved
- * @param {String?} ctx ~ when provided, is added to the element, else we retrieve content from element.
+ * @param {String?} htmlContent ~ when provided, is added to the element,
+                                  else we retrieve content from element.
  * @returns
  */
-function $html(element,  ctx) {
-  if (ctx === null) {
+function $html(element, htmlContent) {
+  if (htmlContent === null) {
     return element.innerHTML;
   }
 
-  element.innerHTML = ctx;
+  element.innerHTML = htmlContent;
 }

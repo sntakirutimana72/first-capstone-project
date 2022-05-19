@@ -17,18 +17,15 @@
     <body>
         <main>
             <header>
-                <div class="d-flex justify-content-between">
-                    <div class="nav-logo hidden">
-                        <a href="../../index.html"><img alt="Logo" src="../images/logo.png"></a>
-                    </div>
+                <div class="d-flex justify-content-between align-items-center">
                     <nav class="nav-bar">
                         <ul class="nav-menu hidden">
                             <li class="nav-menu-item"><a href="./about.html">About</a></li>
-                            <li class="nav-menu-item"><a href="#program">Program</a></li>
-                            <li class="nav-menu-item"><a href="#">Join</a></li>
-                            <li class="nav-menu-item"><a href="#">Sponsor</a></li>
+                            <li class="nav-menu-item"><a href="#">Program</a></li>
+                            <li class="nav-menu-item"><a href="../../index.html#join-us">Join</a></li>
+                            <li class="nav-menu-item"><a href="#sponsor">Sponsor</a></li>
                             <li class="nav-menu-item"><a href="#">News</a></li>
-                            <li class="nav-menu-item"><a href="#">CVF Campaign</a></li>
+                            <li class="nav-menu-item campain"><a href="#">CVF Campaign</a></li>
                         </ul>
                         <button type="button" class="hamburger-box d-flex flex-column justify-content-between">
                             <span class="hamburger-bar bar-1"></span>
@@ -36,14 +33,17 @@
                             <span class="hamburger-bar bar-3"></span>
                         </button>
                     </nav>
+                    <div class="nav-logo">
+                        <a href="../../index.html"><img alt="Logo" src="../images/logo.png"></a>
+                    </div>
                 </div>
-                <div class="nav-mob hidden">
+                <div class="nav-wrap">
                     <nav>
                         <ul>
                             <li><a href="./about.html">About</a></li>
-                            <li><a href="#program">Program</a></li>
-                            <li><a href="#">Join</a></li>
-                            <li><a href="#">Sponsor</a></li>
+                            <li><a href="#">Program</a></li>
+                            <li><a href="../../index.html#join-us">Join</a></li>
+                            <li><a href="#sponsor">Sponsor</a></li>
                             <li><a href="#">News</a></li>
                             <li><a href="#">CVF Campaign</a></li>
                         </ul>
@@ -51,9 +51,9 @@
                 </div>
             </header>
 
-            <section class="about-primary d-flex flex-column align-items-center">
+            <article class="about-primary d-flex flex-column align-items-center">
                 <h1 class="about-heading h-primary reddish">
-                    <span>"Hello! Sharing world"</span><br>
+                    <span>“The future of AI Technology”</span><br>
                     COMPUTER VISION & PATTERN RECOGNITION CONFERENCE 2022
                 </h1>
                 <p class="about-para p-primary blackish bg-white">
@@ -66,25 +66,25 @@
                     Please contanct us per Email for any further questions about CVF Computer Vision Conference 2022!<br>
                     <u>cvprconference2022@new-rleans.org</u>
                 </p>
-            </section>
+            </article>
 
             <section class="d-flex flex-column bg-white about-logo">
                 <h2 class="about-h-secondary h-secondary">
                     Computer Vision & Pattern Recognition Conference 2022 Logo<br>
                     <span></span>
                 </h2>
-                <p class="p-teritiary">
+                <p class="p-third">
                     The logo of CVPR Conference 2022 was decided through the logo competition from 8.April to 7.May.
                 </p>
                 <img src="../images/logo.png" alt="CVPR Conference 2022 Logo" class="about-logo-img">
             </section>
 
-            <section class="about-teritiary d-flex flex-column bg-white">
+            <section class="about-third d-flex flex-column bg-white">
                 <h2 class="about-h-secondary h-secondary">
                     Watch talks about AI<br>
                     <span></span>
                 </h2>
-                <p class="p-teritiary">
+                <p class="p-third">
                     Learn from the top world's engineers and academics researchers in AI field.
                 </p>
                 <div>
@@ -93,7 +93,6 @@
                             width="560" height="315"
                             src="https://www.youtube.com/embed/-8Kn_2MBMOA"
                             title="YouTube video player"
-                            frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen>
                         </iframe>
@@ -101,7 +100,6 @@
                             width="560" height="315"
                             src="https://www.youtube.com/embed/k0uPwMO-4c4"
                             title="YouTube video player"
-                            frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen>
                         </iframe>
@@ -109,7 +107,7 @@
                 </div>
             </section>
 
-            <footer class="about footer">
+            <footer class="about footer" id="sponsor">
                 <div class="footer-partners">
                     <h2 class="h-secondary">
                         Partners<br>
@@ -134,7 +132,7 @@
                 <div class="footer-reserve d-flex justify-content-center align-items-center bg-white">
                     <img src="../images/reserve.png" alt="">
                     <img src="../images/reserve-0.png" alt="" class="hidden">
-                    <p class="p-teritiary">
+                    <p class="p-third">
                         2022 Computer Vision and Pattern Recognition. Some Rights Reserved.
                     </p>
                 </div>
