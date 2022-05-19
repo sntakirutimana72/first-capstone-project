@@ -10,6 +10,8 @@ and other concerned industries including education, health, and many more.
 The project incorporates the event planning and schedules in a webapp and provides users with the means to 
 keep track on everything going on with the event timelines, featured speakers, topics, sponsors, and so on.
 
+> The project design is based on the _**Cindy Shin in Behance**_ original design idea.
+
 
 ## Built With
 
@@ -19,10 +21,21 @@ keep track on everything going on with the event timelines, featured speakers, t
 - JavaScript
 
 
-## Live Demo (if available)
+## Live Demo
+
+In order to know how the project app functions, please watch this
+[loom video](https://www.loom.com/share/d6c73017728c483488f6a985fd6eaff5)
 
 
-## Screenshots (if available)
+## Screenshots
+
+### Main Page
+
+![](./static/images/main-page.png)
+
+### About Page
+
+![](./static/images/about-page.png)
 
 
 ## Getting Started
@@ -86,4 +99,4 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Fellow Micronauts
-- **Cindy Shin** ~ Project template designer 
+- _**Cindy Shin in Behance**_ ~ The original desinger of the template. 
