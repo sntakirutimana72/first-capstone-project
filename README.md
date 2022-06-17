@@ -2,15 +2,7 @@
 
 # First Capstone Project
 
-This project is built around the **CVF Computer Vision Conference 2022** upcoming event. 
-The **CVF Computer Vision Conference 2022** event will feature people from all over world, 
-coming together to talk and share diverse ideas about AI and its appliances in tech industries 
-and other concerned industries including education, health, and many more.
-
-The project incorporates the event planning and schedules in a webapp and provides users with the means to 
-keep track on everything going on with the event timelines, featured speakers, topics, sponsors, and so on.
-
-> The project design is based on the _**Cindy Shin in Behance**_ original design idea.
+A conference-event app that allows users to view event timelines, plans, stakeholders, and feaures topics and speakers. Built with HTLM, CSS, Bootstrap, and JavaScript.
 
 
 ## Built With
