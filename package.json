@@ -1,7 +1,7 @@
 {
   "name": "first-capstone-project",
   "version": "1.0.0",
-  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "description": "A conference-event app that allows users to view event timelines, plans, stakeholders, and feaures topics and speakers. Built with HTLM, CSS, Bootstrap, and JavaScript.",
   "main": "index.js",
   "scripts": {
     "lint:hint": "npx hint .",
